@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cinema Js</title>
+	<link rel="stylesheet" href="CSS/estilos.css"/>
+	<link rel="shortcut icon" type="image/jpg" href="Img/film-roll.png">
+</head>
+<body>
+	<div id="particles-js">
+		<form onsubmit="{myForm(event)}">
+			<div id="formulario">
+				<span>Cuéntame sobre tus <b>pelis favoritas.</b></span>
+				<label for="nombre">Título</label>
+				<input type="text" id="nombre" name="nombre" placeholder="Star Wars">
+				<label for="año">Año</label>
+				<input type="number" id="año" name="año" placeholder="1984">
+				<input type="submit" id="submit" value="Confirmar">
+			</div>
+			<div id="formValues"></div>
+		</form>
+	</div>
+
+	<!--JAVASCRIPTS-->
+	<script src="Js/particles.js"></script>
+	<script src="Js/app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="Js/alto.js"></script>
+	<script src="Js/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#particles-js {
+  background: linear-gradient(125deg, #23d2ff 0.3%, #4a68f7 18.2%, #8550ff 36.4%, #c63bf3 52.5%, #fa5476 68.8%, #ffdf43 99.9%);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: absolute;
+  margin: 100px 0;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  form {
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 45px 0;
+  }
+}
+form #formulario {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+form #formulario span {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+  form #formulario {
+    width: 100%;
+  }
+}
+form #formulario input {
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.6);
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: aliceblue;
+  padding: 10px;
+}
+form #formulario #checkbox {
+  margin-right: 10px;
+}
+form #formulario #comentario {
+  padding: 5px;
+  margin: 15px 0;
+}
+form #formulario #submit {
+  background-color: #00d87e;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  box-shadow: black 1px 1px 10px;
+  color: ghostwhite;
+  font-weight: 800;
+}
+form #formValues {
+  color: ghostwhite;
+  border-radius: 2px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
