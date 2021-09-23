@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div id="particles-js">
-		<form onsubmit="{myForm(event)}">
+		<form id='form'>
 			<div id="formulario">
 				<span>Cuéntame sobre tus <b>pelis favoritas.</b></span>
 				<label for="nombre">Título</label>
@@ -18,7 +18,8 @@
 				<input type="number" id="año" name="año" placeholder="1984">
 				<input type="submit" id="submit" value="Confirmar">
 			</div>
-			<div id="formValues"></div>
+			<div id="movies"></div>
+			<h2 id="message"></h2>
 		</form>
 	</div>
 

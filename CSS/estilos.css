@@ -60,13 +60,6 @@ form #formulario input {
   border-color: aliceblue;
   padding: 10px;
 }
-form #formulario #checkbox {
-  margin-right: 10px;
-}
-form #formulario #comentario {
-  padding: 5px;
-  margin: 15px 0;
-}
 form #formulario #submit {
   background-color: #00d87e;
   border: none;
@@ -76,12 +69,18 @@ form #formulario #submit {
   color: ghostwhite;
   font-weight: 800;
 }
-form #formValues {
+form #movies {
   color: ghostwhite;
-  border-radius: 2px;
   font-weight: 500;
-  padding: 10px;
   margin: 10px;
+  list-style-type: none;
+}
+form #movies li {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+}
+form #message {
+  color: ghostwhite;
 }
 
 /*# sourceMappingURL=estilos.css.map */
